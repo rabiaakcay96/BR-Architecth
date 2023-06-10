@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair', serif;
+}
+.bar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.page1{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    letter-spacing: 4px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 1500px;
+    
+}
+.br-yazi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 16px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    letter-spacing: 4px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.ortala {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 36px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.imgtext{
+    font-weight: bolder;
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+    opacity: 0.75;
+    font-size: 36px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    position: absolute;
+    display: flex;
+}
+.br-yazi b{
+    color: #fff;
+    background-color: #000;
+    font-size: 36px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight:bolder ;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    text-align: center;
+}
+.imgtext2{
+    color: #f1f1f1;
+    font-size: 36px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.br-baslik{
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    overflow: hidden;
+    letter-spacing: 4px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: table;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.br-baslik b{
+    font-weight: bolder;
+
+
+}
+.br-navbar-button{
+    white-space: normal;
+    vertical-align: middle;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.08s;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+    float: left;
+    width: auto;
+    border: none;
+    
+    outline: 0;
+}
+.br-navbar-button:hover{
+    background-color: lightgrey;
+    
+}
+.brright a{
+    color:black;
+    text-decoration: none;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    
+}
+.brright{
+
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    letter-spacing: 4px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.rightbutton{
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color:inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    outline: 0;
+}
+.rightbutton:hover{
+    background-color: lightgrey;
+    transition: 0.08s;
+}
+.br-image{
+    background-image: url("/img/architect.jpg");
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    gap: 8px;
+    color: whitesmoke;
+}
+.project{
+    margin: 30px;
+    border-color: #f1f1f1;
+    padding-top: 16px!;
+    padding-bottom: 16px!;
+    border-bottom: 1px solid #ccc;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 3;
+}
+
+.houses1{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.houses2{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.house5{
+    position: relative;
+}
+.summerhouse{
+    font-size: medium;
+    font-weight: lighter;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 16px; 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.house2{
+    position: relative;
+}
+.ab{
+    font-size: 24px;
+    border-color: whitesmoke;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+
+}
+.text {
+    margin: 30px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.arc1{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    float: left;
+}
+.john{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+}
+.job1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: lighter;
+    color: lightslategrey;
+    font-size: larger;
+}
+.jane{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+}
+.job2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: lighter;
+    color: lightslategrey;
+    font-size: larger;
+}
+.arc{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text1{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+.yazidüzen1{
+    width: 50%;
+    text-align: justify;
+}
+.yazidüzen1 p{
+    text-align: justify;
+}
+.text2{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+.yazidüzen2{
+    width: 50%;
+}
+.mike{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+}
+
+.text3{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.yazidüzen3{
+    width: 50%;
+}
+.job3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: lighter;
+    color: lightslategrey;
+    font-size: larger;
+}
+.yazidüzen4{
+    width: 50%;
+}
+.dan{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+}
+.text4{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.job4{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: lighter;
+    color: lightslategrey;
+    font-size: larger;
+
+}
+.button{
+    margin: 0;
+    padding: 8px 64px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-decoration:none;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
+.page3{
+    margin: 30px;
+}
+.contact-container{
+    
+    box-sizing: inherit;
+    display: block;
+    border-color: #f1f1f1;
+    padding-top: 16px!;
+    padding-bottom: 16px!;
+    border-bottom: 1px solid #ccc;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    line-height: 3;
+}
+.page3 p{
+    display: block;
+    margin: 30px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact1{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    border: 1 px solid;
+    font-size: 20px;
+    margin: 0;
+}
+.contact2{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    border: 1 px solid;
+    font-size: 20px;
+    margin: 0;
+}
+.contact3{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    border: 1 px solid;
+    font-size: 20px;
+    margin: 0;
+    
+}
+.contact4{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    border: 1 px solid;
+    font-size: 20px;
+    margin: 0;
+    
+}
+.questions{
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.message{
+    margin: 30px;
+    width: 20%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    text-transform: none;
+    text-decoration: none;
+    justify-content: space-around;
+    display: block;
+}
+.message:hover{
+    background-color: black;
+}
+.powerby{
+    color: #fff;
+    background-color: #000;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    display: block;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.w3{
+    background-color:#000;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.map{
+    margin: 30px;
+}
+
